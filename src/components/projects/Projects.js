@@ -11,30 +11,34 @@ const Projects = () => {
       <Title title="Recent" subTitle="Projects" />
       <div className="w-full  md:grid-cols-2 gap-6 lgl:gap-10">
         <div className="px-6">
-          <ProjectsCard
-            title="Solve"
-            category="Website"
-            image={solve}
-            link="https://solve3.netlify.app/"
-          />
-          <ProjectsCard
-            title="HomeDecore"
-            category="Website"
-            link="https://decore69.netlify.app/"
-            image={home}
-          />
+          <a href="https://solve3.netlify.app/">
+            <ProjectsCard
+              title="Solve"
+              category="Website"
+              image={solve}
+              link=""
+            />
+          </a>
 
-          <ProjectsCard
-            title="Portfolio"
-            category="Website"
-            image={portfolio}
-            link="https://ahmednasserportfolio11.on.drv.tw/Portfolio/Port.html"
-          />
-          {/* <ProjectsCard
-            title="Mobile Application"
-            category="Shopping"
-            image={workImgFive}
-          /> */}
+          <a href="https://decore69.netlify.app/">
+            <ProjectsCard
+              title="HomeDecore"
+              category="Website"
+              link=""
+              image={home}
+            />
+          </a>
+
+          <a href="https://ahmednasserportfolio11.on.drv.tw/Portfolio/Port.html">
+            <ProjectsCard
+              title="Portfolio"
+              category="Website"
+              image={portfolio}
+              link=""
+            />
+          </a>
+        
+        
         </div>
         {/* <div className="px-6">
           <ProjectsCard
