@@ -4,7 +4,8 @@ import home from "../../assets/home.png";
 import portfolio from "../../assets/portfolio.png";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
-import tikitalk from "../../assets/tikitalk.png"
+import tikitalk from "../../assets/tikitalk.png";
+import hoobank from "../../assets/hoobank.png";
 
 const Projects = () => {
   return (
@@ -47,7 +48,15 @@ const Projects = () => {
               link=""
             />
           </a>
-          
+
+          <a href="https://hookbank69.netlify.app/">
+            <ProjectsCard
+              title="Hoobank"
+              category="Website"
+              image={hoobank}
+              link=""
+            />
+          </a>
         </div>
         {/* <div className="px-6">
           <ProjectsCard
