@@ -6,6 +6,7 @@ import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
 import tikitalk from "../../assets/tikitalk.png";
 import hoobank from "../../assets/hoobank.png";
+import admin from "../../assets/admin.png";
 
 const Projects = () => {
   return (
@@ -54,6 +55,15 @@ const Projects = () => {
               title="Hoobank"
               category="Website"
               image={hoobank}
+              link=""
+            />
+          </a>
+
+          <a href="https://admin69.netlify.app/">
+            <ProjectsCard
+              title="Admin DashBoard"
+              category="Website"
+              image={admin}
               link=""
             />
           </a>
