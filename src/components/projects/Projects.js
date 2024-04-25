@@ -7,6 +7,8 @@ import ProjectsCard from "./ProjectsCard";
 import tikitalk from "../../assets/tikitalk.png";
 import hoobank from "../../assets/hoobank.png";
 import admin from "../../assets/admin.png";
+import nike from "../../assets/nike.png"
+import brain from "../../assets/brain.png"
 
 const Projects = () => {
   return (
@@ -14,6 +16,25 @@ const Projects = () => {
       <Title title="Recent" subTitle="Projects" />
       <div className="w-full  md:grid-cols-2 gap-6 lgl:gap-10">
         <div className="px-6">
+
+          <a href="https://nike-store-seven.vercel.app/">
+            <ProjectsCard
+              title="Store"
+              category="Website"
+              image={nike}
+              link=""
+            />
+          </a>
+
+          <a href="https://brainwave-main-beryl.vercel.app/">
+            <ProjectsCard
+              title="brainwave"
+              category="Website"
+              image={brain}
+              link=""
+            />
+          </a>
+
           <a href="https://solve3.netlify.app/">
             <ProjectsCard
               title="Solve"
@@ -31,7 +52,6 @@ const Projects = () => {
               image={home}
             />
           </a>
-
 
           <a href="https://tikitalk.netlify.app/">
             <ProjectsCard
@@ -59,7 +79,7 @@ const Projects = () => {
               link=""
             />
           </a>
-          
+
           <a href="https://ahmednasserportfolio11.on.drv.tw/Portfolio/Port.html">
             <ProjectsCard
               title="Portfolio"
@@ -68,6 +88,7 @@ const Projects = () => {
               link=""
             />
           </a>
+
         </div>
         {/* <div className="px-6">
           <ProjectsCard
