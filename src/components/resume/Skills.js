@@ -43,6 +43,13 @@ const Skills = () => {
               <span className="w-[80%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
+          {/* Making api */}
+          <div className="py-3 border-b-[1px] border-zinc-800">
+            <p className="text-base text-textColor -mb-1.5">Making Api</p>
+            <span className="w-full bg-zinc-600 h-1 inline-flex relative">
+              <span className="w-[80%] h-full absolute top-0 left-0 bg-designColor"></span>
+            </span>
+          </div>
         </div>
       </div>
       <div className="w-full h-full hidden lgl:flex justify-center items-center">
@@ -122,6 +129,30 @@ const Skills = () => {
           </div>
           <div className="py-3 border-b-[1px] border-zinc-800">
             <p className="text-base text-textColor -mb-1.5">Express</p>
+            <span className="w-full bg-zinc-600 h-1 inline-flex relative">
+              <span className="w-[90%] h-full absolute top-0 left-0 bg-designColor"></span>
+            </span>
+          </div>
+          <div className="py-3 border-b-[1px] border-zinc-800">
+            <p className="text-base text-textColor -mb-1.5">Typescript</p>
+            <span className="w-full bg-zinc-600 h-1 inline-flex relative">
+              <span className="w-[90%] h-full absolute top-0 left-0 bg-designColor"></span>
+            </span>
+          </div>
+          <div className="py-3 border-b-[1px] border-zinc-800">
+            <p className="text-base text-textColor -mb-1.5">Next14</p>
+            <span className="w-full bg-zinc-600 h-1 inline-flex relative">
+              <span className="w-[90%] h-full absolute top-0 left-0 bg-designColor"></span>
+            </span>
+          </div>
+          <div className="py-3 border-b-[1px] border-zinc-800">
+            <p className="text-base text-textColor -mb-1.5">Redux</p>
+            <span className="w-full bg-zinc-600 h-1 inline-flex relative">
+              <span className="w-[90%] h-full absolute top-0 left-0 bg-designColor"></span>
+            </span>
+          </div>
+          <div className="py-3 border-b-[1px] border-zinc-800">
+            <p className="text-base text-textColor -mb-1.5">React Query</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[90%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>

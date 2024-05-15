@@ -5,12 +5,13 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { SiYoutubemusic } from "react-icons/si";
 import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
-import CV from "../../assets/Ahmed Nasser Frontend (1).pdf";
+import CV from "../../assets/Ahmed Nasser-frontend.pdf";
 import oni from "../../assets/oni.jpg";
+import Contact from "../contact/Contact"
 
 const Left = () => {
   const [text] = useTypewriter({
-    words: ["Web Developer", "Full MERN Stack Developer", "Software Developer"],
+    words: ["Web Developer", "Full MERN Stack Developer", "Software Developer","React Native Dev"],
     loop: true,
     typeSpeed: 30,
     deleteSpeed: 20,
@@ -74,7 +75,7 @@ const Left = () => {
               Download CV <BsCloudLightningFill />
             </button>
           </a>
-          <button className="w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300">
+          <button onClick={<Contact />} className="w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300">
             Contact me <FiSend />
           </button>
         </div>

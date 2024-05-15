@@ -11,22 +11,22 @@ const MyServices = () => {
       <ServicesCard
         icons={<BiCodeAlt />}
         title="Web Development"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        subTitle="We offer custom web application development, responsive design, and frontend and backend development services tailored to your business needs."
       />
       <ServicesCard
         icons={<SiAntdesign />}
         title="Web Design"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        subTitle="Specializing in e-commerce solutions, CMS development, API integration, and quality assurance testing, we ensure high-performance, reliable web solutions."
       />
       <ServicesCard
         icons={<AiTwotoneAppstore />}
         title="Mobile Application"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        subTitle="Crafting custom mobile applications with intuitive user interfaces and seamless experiences, tailored precisely to your business requirements."
       />
       <ServicesCard
         icons={<FaAppStoreIos />}
         title="SEO"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        subTitle="Elevate your online visibility and drive organic traffic with our comprehensive SEO services, including keyword research, on-page optimization, and link building strategies."
       />
     </div>
   );

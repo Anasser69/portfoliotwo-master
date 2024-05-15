@@ -9,6 +9,8 @@ import hoobank from "../../assets/hoobank.png";
 import admin from "../../assets/admin.png";
 import nike from "../../assets/nike.png"
 import brain from "../../assets/brain.png"
+import blog from "../../assets/blog.png"
+
 
 const Projects = () => {
   return (
@@ -16,6 +18,14 @@ const Projects = () => {
       <Title title="Recent" subTitle="Projects" />
       <div className="w-full  md:grid-cols-2 gap-6 lgl:gap-10">
         <div className="px-6">
+          <a href="https://blog-cms-4rju.vercel.app/">
+            <ProjectsCard
+              title="Blog-CMS"
+              category="Website"
+              image={blog}
+              link=""
+            />
+          </a>
 
           <a href="https://nike-store-seven.vercel.app/">
             <ProjectsCard
@@ -88,7 +98,6 @@ const Projects = () => {
               link=""
             />
           </a>
-
         </div>
         {/* <div className="px-6">
           <ProjectsCard
