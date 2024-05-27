@@ -3,7 +3,7 @@ import SidenavTitle from "./SidenavTitle";
 
 const Sidenav = () => {
   return (
-    <div className="px-7 py-4">
+    <div className="px-7 py-4 cursor-pointer">
       <SidenavTitle title="M" subTitle="enu" />
       <ul>
         <li className="sidenavLi">Blog Page</li>
