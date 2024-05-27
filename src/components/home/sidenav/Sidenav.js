@@ -11,16 +11,16 @@ const Sidenav = () => {
       </ul>
       <SidenavTitle title="P" subTitle="rojects" />
       <ul>
-        <li className="sidenavLi">Web Development</li>
-        <li className="sidenavLi">E-commerce</li>
-        <li className="sidenavLi">Chatting Applications</li>
-        <li className="sidenavLi">Portfolio Websites</li>
+        <li className="sidenavLi">Nike Store</li>
+        <li className="sidenavLi">Solve</li>
+        <li className="sidenavLi">Blog</li>
+        <li className="sidenavLi">Ai Assist Mobile</li>
         <li className="sidenavLi">Backend Setup</li>
-        <li className="sidenavLi">Amazon Clone</li>
+        <li className="sidenavLi">Brain wave</li>
       </ul>
       <SidenavTitle title="L" subTitle="atest Posts" />
       <ul>
-        <li className="sidenavLi">UI & UX Conference at Lviv 2022</li>
+        <li className="sidenavLi">UI & UX Conference at Lviv 2024</li>
         <li className="sidenavLi">How to become a creative designer</li>
         <li className="sidenavLi">
           Designers thoughts about mobile UI templates
