@@ -17,7 +17,6 @@ const Home = () => {
   const [about, setAbout] = useState(true);
   const [resume, setResume] = useState(false);
   const [projects, setProjects] = useState(false);
-  // const [blog, setBlog] = useState(false);
   const [contact, setContact] = useState(false);
   const [sidenav, setSidenav] = useState(false);
   const ref = useRef();
